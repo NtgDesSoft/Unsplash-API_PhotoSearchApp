@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/small"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/photo_imageview"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="@dimen/match_constraints"
+        android:layout_height="400dp"
+        tools:layout_height="200dp"
+        tools:src="@mipmap/ic_launcher"
+        />
+
+    <TextView
+        android:id="@+id/author_textview"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:padding="@dimen/xsmall"
+        android:background="@drawable/bg_author"
+        android:drawablePadding="@dimen/small"
+        app:drawableStartCompat="@drawable/ic_author"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/photo_imageview"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="@dimen/match_constraints"
+        android:layout_height="wrap_content"
+        tools:text="Author Name"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

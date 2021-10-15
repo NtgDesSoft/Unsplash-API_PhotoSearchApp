@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="match_constraints">0dp</dimen>
+    <dimen name="xxsmall">2dp</dimen>
+    <dimen name="xsmall">4dp</dimen>
+    <dimen name="small">8dp</dimen>
+    <dimen name="medium">16dp</dimen>
+    <dimen name="large">24dp</dimen>
+    <dimen name="xlarge">42dp</dimen>
+
+    <dimen name="medium_interm_sp">12sp</dimen>
+    <dimen name="medium_sp">16sp</dimen>
+    <dimen name="large_interm_sp">18sp</dimen>
+</resources>
